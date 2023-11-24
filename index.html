@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-header" id="heading" >
+            <h1>Data Analytics Dashboard</h1>
+        </div>
+        <div id="sidebar">
+        <div class="navbar" id="sidebar1">
+            <a href="daily.html" class="btn">Daily</a>
+           <a href="weekly.html" class="btn">Weekly</a>
+           <a href="monthly.html" class="btn">Monthly</a>
+        </div>
+        <div id="sidebar2">
+            <h2>Yield Percentage : <span class="span">70%</span> </h2>
+        </div>
+    </div>
+    <div class="dashboard">
+        <div class="card" id="widget1">
+            <h3>PH</h3>
+          <canvas id="chart1"></canvas>
+        </div>
+        <div class="card" id="widget2">
+            <h3>Moisture</h3>
+          <canvas id="chart2"></canvas>
+        </div>
+        <div class="card" id="widget3">
+            <h3>Tempurature</h3>
+          <canvas id="chart3"></canvas>
+        </div>
+        <div class="card" id="widget4">
+            <h3>Ammonia</h3>
+          <canvas id="chart4"></canvas>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

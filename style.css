@@ -1,0 +1,42 @@
+#heading
+{
+    text-align: center;
+}
+#sidebar
+{
+    display: flex;
+    justify-content: space-between;
+}
+#sidebar1
+{
+    padding-top: 20px;
+}
+.span
+{
+    color: rgb(168, 224, 168);
+}
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
